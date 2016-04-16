@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".btns").click(function(){console.log("hoge"),wn="."+$(this).data("tgt");$(wn).find(".modalBody").innerWidth()/2,$(wn).find(".modalBody").innerHeight()/2;$(wn).fadeIn(300)}),$(".close,.modalBK").click(function(){$(wn).fadeOut(300)})});
